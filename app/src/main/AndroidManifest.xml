@@ -2,7 +2,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.bruins">
+    package="com.rishab.bruins">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -15,44 +15,44 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true">
         <activity
-            android:name=".Activities.MainActivity"
+            android:name="com.rishab.bruins.Activities.MainActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:label="@string/app_name" />
         <activity
-            android:name=".Activities.MainSchedule"
+            android:name="com.rishab.bruins.Activities.MainSchedule"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".Activities.StaffActivity"
+            android:name="com.rishab.bruins.Activities.StaffActivity"
             android:theme="@style/AppTheme"
             android:label="Staff Directory"></activity>
-        <activity android:name=".StaffListItem"></activity>
+        <activity android:name="com.rishab.bruins.StaffListItem"></activity>
         <activity
-            android:name=".Activities.MapActivity"
+            android:name="com.rishab.bruins.Activities.MapActivity"
             android:theme="@style/AppTheme"
             android:label="Map"></activity>
         <activity
-            android:name=".Activities.CalendarActivity"
+            android:name="com.rishab.bruins.Activities.CalendarActivity"
             android:theme="@style/AppTheme"
             android:label="Calendar"></activity>
         <activity
-            android:name=".Activities.LoginActivity"
+            android:name="com.rishab.bruins.Activities.LoginActivity"
             android:theme="@style/AppTheme"
             android:label="Login"></activity>
         <activity
-            android:name=".Activities.ImagesUploadActivity"
+            android:name="com.rishab.bruins.Activities.ImagesUploadActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".Activities.ClubsActivity"
+            android:name="com.rishab.bruins.Activities.ClubsActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".Activities.AnnouncementsActivity"
+            android:name="com.rishab.bruins.Activities.AnnouncementsActivity"
             android:theme="@style/AppTheme"
             android:label="Announcements"></activity>
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/CropTheme"></activity>
         <activity
-            android:name=".Activities.SplashActivity"
+            android:name="com.rishab.bruins.Activities.SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -60,10 +60,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activities.AccountActivity"
+            android:name="com.rishab.bruins.Activities.AccountActivity"
             android:theme="@style/AppTheme"></activity>
         <activity
-            android:name=".Activities.ProfilePictureActivity"
+            android:name="com.rishab.bruins.Activities.ProfilePictureActivity"
             android:theme="@style/AppTheme" />
 
         <meta-data
